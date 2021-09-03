@@ -155,9 +155,9 @@
     var fishes = [];
 
 
-    var speedBoostCountdown = 200,
+    var speedBoostCountdown = 400,
         speedBoost = 0,
-        SPEED_BOOST = 2;
+        SPEED_BOOST = 0;
     var fishBitmap = new Image()
     fishBitmap.onload = function () {
         update();
